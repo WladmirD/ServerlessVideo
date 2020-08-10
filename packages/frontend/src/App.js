@@ -8,7 +8,7 @@ function App() {
   const [user, setUser] = useState({});
   return (
     <div className="App container">
-      <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated, user, setUser }}>
+<AppContext.Provider value={{ isAuthenticated, userHasAuthenticated, user, setUser }}>
   <Routes />
 </AppContext.Provider>
     </div>
